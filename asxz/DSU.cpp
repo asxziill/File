@@ -16,12 +16,12 @@ struct DSU {
     }
     
     int find(int x) {
-        while (x != f[x]) {
+        if (x != f[x]) {
             int fa = f[x];
             f[x] = find(f[x]);
             dis[x] = dis[x] + dis[fa];
         }
-        return x;
+        return f[x];
     }
     
     bool same(int x, int y) {
@@ -57,6 +57,7 @@ struct DSU {
     }
 
     T getdis(int x){
+        find(x);
         return dis[x];
     }
 };
