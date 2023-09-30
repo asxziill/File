@@ -1,0 +1,23 @@
+[
+	{
+		"correct_answers":
+		[
+			"Python 3.14 will be faster than C++"
+		],
+		"test": "10 1\n11 45 14 19 19 8 10 13 10 8\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Python will never be faster than C++"
+		],
+		"test": "10 1\n2 2 2 2 2 2 2 2 2 2\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Python 3.1 will be faster than C++"
+		],
+		"test": "10 3\n1 2 3 4 5 6 7 8 9 10\n"
+	}
+]
