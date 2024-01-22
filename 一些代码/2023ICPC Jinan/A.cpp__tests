@@ -1,0 +1,24 @@
+[
+	{
+		"correct_answers":
+		[
+			"Yes\nNo\nYes\nNo\nYes\nNo"
+		],
+		"test": "6\n))\n((()\n[()]\n()[()]()\n([()])\n([])([])\n"
+	},
+	{
+		"correct_answers":
+		[
+			"Yes",
+			"Yes\nNo\nNo\nNo"
+		],
+		"test": "4\n[]()\n([]())\n([][])\n([[]])\n"
+	},
+	{
+		"correct_answers":
+		[
+			"No\nNo\nYes\nYes"
+		],
+		"test": "4\n([]()[])\n[]()[]\n([()])[()]\n()[([()])]\n\n"
+	}
+]
