@@ -1,0 +1,23 @@
+[
+	{
+		"correct_answers":
+		[
+			"18"
+		],
+		"test": "6 2\n"
+	},
+	{
+		"correct_answers":
+		[
+			"600000038"
+		],
+		"test": "2 6\n"
+	},
+	{
+		"correct_answers":
+		[
+			"424200026"
+		],
+		"test": "83 613210\n"
+	}
+]
